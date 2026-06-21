@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo --version)",
+      "Bash(rustc --version)",
+      "Bash(cargo build *)",
+      "Bash(cargo test *)",
+      "Bash(cargo run *)",
+      "Bash(ls -la ../vnsdk/)",
+      "Bash(ls -la vnsdk/)",
+      "Bash(python3 -c \"import serial; print\\('pyserial', serial.__version__\\)\")",
+      "Bash(vc-x1 push *)",
+      "Bash(cargo clippy *)",
+      "Bash(cargo fmt *)"
+    ]
+  }
+}
