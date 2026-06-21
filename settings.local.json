@@ -11,7 +11,11 @@
       "Bash(python3 -c \"import serial; print\\('pyserial', serial.__version__\\)\")",
       "Bash(vc-x1 push *)",
       "Bash(cargo clippy *)",
-      "Bash(cargo fmt *)"
+      "Bash(cargo fmt *)",
+      "Bash(command -v pdftotext)",
+      "Bash(pdftotext -layout VN100-ICD-v3_1_0_0-ICD10005-R1.pdf /tmp/vn100-icd.txt)",
+      "Read(//tmp/**)",
+      "Bash(grep -nA6 -iE \"^2\\\\.4\\\\.[0-9]+ +\\(UncompAccel|UncompGyro|UncompMag|Mag$|Temperature|Pressure\\)\" /tmp/vn100-icd.txt)"
     ]
   }
 }
