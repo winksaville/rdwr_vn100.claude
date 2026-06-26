@@ -23,7 +23,11 @@
       "Bash(vc-x1 -V)",
       "Bash(rdwr_vn100 *)",
       "WebSearch",
-      "Bash(jj bookmark *)"
+      "Bash(jj bookmark *)",
+      "Read(//home/nps-gnc/data/prgs/nps-gnc/fc/**)",
+      "Read(//home/nps-gnc/data/prgs/nps-gnc/fc/src/**)",
+      "Bash(./target/release/rdwr_vn100 *)",
+      "Bash(jj diff *)"
     ]
   }
 }
