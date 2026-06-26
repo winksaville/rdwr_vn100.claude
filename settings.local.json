@@ -27,7 +27,13 @@
       "Read(//home/nps-gnc/data/prgs/nps-gnc/fc/**)",
       "Read(//home/nps-gnc/data/prgs/nps-gnc/fc/src/**)",
       "Bash(./target/release/rdwr_vn100 *)",
-      "Bash(jj diff *)"
+      "Bash(jj diff *)",
+      "Bash(git -C . log --oneline -1 origin/main)",
+      "Bash(git -C . log --oneline -1 main)",
+      "Bash(git -C . show --stat 49e72e5 --no-pager)",
+      "Bash(jj show *)",
+      "Bash(jj git *)",
+      "Bash(git -C . remote -v)"
     ]
   }
 }
