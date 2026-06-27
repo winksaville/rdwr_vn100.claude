@@ -33,7 +33,14 @@
       "Bash(git -C . show --stat 49e72e5 --no-pager)",
       "Bash(jj show *)",
       "Bash(jj git *)",
-      "Bash(git -C . remote -v)"
+      "Bash(git -C . remote -v)",
+      "Read(//home/nps-gnc/data/prgs/nps-gnc/docs/**)",
+      "Read(//home/nps-gnc/data/prgs/nps-gnc/**)",
+      "Bash(pdftotext -layout docs/VN100-ICD-v3_1_0_0-ICD10005-R1.pdf /tmp/claude-1000/-home-nps-gnc-data-prgs-nps-gnc-rw-vn100/ee2614f5-10f5-49aa-b237-21b72ffa9a11/scratchpad/icd.txt)",
+      "Bash(grep -nE '^2\\\\.[0-9]|^2\\\\.[0-9]\\\\.[0-9]| 2\\\\.2 | 2\\\\.4 |Binary Group 1|Common$|COMMON|Binary Group|BINARY GROUP' /tmp/claude-1000/-home-nps-gnc-data-prgs-nps-gnc-rw-vn100/ee2614f5-10f5-49aa-b237-21b72ffa9a11/scratchpad/icd.txt)",
+      "Bash(pdftotext -layout ../docs/VN100-T_UserManual-UM001.pdf /tmp/claude-1000/-home-nps-gnc-data-prgs-nps-gnc-rw-vn100/ee2614f5-10f5-49aa-b237-21b72ffa9a11/scratchpad/um.txt)",
+      "Bash(grep -nE '\"\\\\$?VN|=> *Command::|Command::|--bin|--fields|--type|fields:|bin:' src/cli.rs)",
+      "Bash(grep -niE 'vn|VNRRG|VNWRG|VNWNV|register|reg |\\\\$VN|serial|baud|0xFA|0xfa|sync|binary|async|stream|readline|read\\\\\\(|write\\\\\\(' ../fc/src/fc_2v3A0.py)"
     ]
   }
 }
