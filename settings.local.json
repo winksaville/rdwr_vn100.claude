@@ -41,7 +41,15 @@
       "Bash(pdftotext -layout ../docs/VN100-T_UserManual-UM001.pdf /tmp/claude-1000/-home-nps-gnc-data-prgs-nps-gnc-rw-vn100/ee2614f5-10f5-49aa-b237-21b72ffa9a11/scratchpad/um.txt)",
       "Bash(grep -nE '\"\\\\$?VN|=> *Command::|Command::|--bin|--fields|--type|fields:|bin:' src/cli.rs)",
       "Bash(grep -niE 'vn|VNRRG|VNWRG|VNWNV|register|reg |\\\\$VN|serial|baud|0xFA|0xfa|sync|binary|async|stream|readline|read\\\\\\(|write\\\\\\(' ../fc/src/fc_2v3A0.py)",
-      "Bash(echo \"=== fmt exit $? ===\")"
+      "Bash(echo \"=== fmt exit $? ===\")",
+      "Bash(rw-vn100 --baud 921600 bench 2)",
+      "Bash(stty -F /dev/ttyAMA0 921600 raw -echo -echoe -echok)",
+      "Bash(echo \"stty exit $?\")",
+      "Bash(rw-vn100 --baud 921600 set-ascii=off)",
+      "Bash(rw-vn100 --baud 921600 set-bin=off)",
+      "Bash(rw-vn100 --baud 921600 set-ascii=ymr)",
+      "Bash(timeout 1 cat /dev/ttyAMA0)",
+      "Bash(xxd test-data/both-streams.bin)"
     ]
   }
 }
