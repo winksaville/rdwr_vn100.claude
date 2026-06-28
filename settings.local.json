@@ -59,7 +59,9 @@
       "Bash(rw-vn100 set-bin-fields *)",
       "Bash(rw-vn100 set-ascii=off *)",
       "Bash(rw-vn100 set-bin-fields=time,accel,gyro *)",
-      "Bash(rw-vn100 set-bin=on *)"
+      "Bash(rw-vn100 set-bin=on *)",
+      "Bash(rw-vn100 set-bin=off *)",
+      "Bash(rw-vn100 set-bin-hz=200 *)"
     ]
   }
 }
