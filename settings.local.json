@@ -49,7 +49,8 @@
       "Bash(rw-vn100 --baud 921600 set-bin=off)",
       "Bash(rw-vn100 --baud 921600 set-ascii=ymr)",
       "Bash(timeout 1 cat /dev/ttyAMA0)",
-      "Bash(xxd test-data/both-streams.bin)"
+      "Bash(xxd test-data/both-streams.bin)",
+      "Bash(cargo install *)"
     ]
   }
 }
