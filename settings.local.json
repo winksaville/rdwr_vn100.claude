@@ -50,7 +50,13 @@
       "Bash(rw-vn100 --baud 921600 set-ascii=ymr)",
       "Bash(timeout 1 cat /dev/ttyAMA0)",
       "Bash(xxd test-data/both-streams.bin)",
-      "Bash(cargo install *)"
+      "Bash(cargo install *)",
+      "Bash(rw-vn100 set-ascii=ypr *)",
+      "Bash(rw-vn100 --help)",
+      "Bash(sed -n '/get-bin/,/^  baud/p')",
+      "Bash(rw-vn100 set-bin *)",
+      "Bash(rw-vn100 set-bin=time,accel)",
+      "Bash(rw-vn100 set-bin-fields *)"
     ]
   }
 }
