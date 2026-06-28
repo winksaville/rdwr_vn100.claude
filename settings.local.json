@@ -69,7 +69,8 @@
       "Bash(rw-vn100 set-ascii=ymr *)",
       "Bash(awk '{print $5, $9}')",
       "Bash(bash test-data/zero-parse/repro.sh ./tmp 20)",
-      "Bash(grep -vE \"^Opening|^TX:|^RX:|acknowledged|^Verifying|^Verified|Volatile|^\\\\\\(|preset set|Binary output:|^rw-vn100 0|Measuring|^$|Sample:|Fields:\")"
+      "Bash(grep -vE \"^Opening|^TX:|^RX:|acknowledged|^Verifying|^Verified|Volatile|^\\\\\\(|preset set|Binary output:|^rw-vn100 0|Measuring|^$|Sample:|Fields:\")",
+      "Bash(cd *)"
     ]
   }
 }
